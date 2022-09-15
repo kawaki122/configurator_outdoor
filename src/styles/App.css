@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  text-align: left;
+}
+
+.main-menu {
+  width: 20%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .App {
+    display: block;
+
+  }
+  .main-menu {
+    width: 100%;
+  }
+
+}
+
+
+p {
+  color: gray;
+}
+
+.slider-heading {
+  display: block;
+  margin-top: 30px;
+}
+
+.content {
+  padding-top: 10px;
+  transform: translate3d(50%, 0, 0);
+  text-align: left;
+  background: white;
+font-size: smaller;
+  padding: 10px 15px;
+  border-radius: 20px;
+  opacity: 0.5;
+}
